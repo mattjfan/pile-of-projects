@@ -22,6 +22,9 @@ body{
   margin-bottom: 5%;
 
 }
+.central-column:focus{
+  outline:0;
+}
 
 .footer {
     color:var(--color1);
