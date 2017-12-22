@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!--👋 Hi there, I'm Matt!
+      Fancy seeing you here in my source code 🙃
+      Send me a ✉️ to mfan@umd.edu and let's talk 😉-->
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Hi there! I'm a designer, developer, and engineer studying at UMD + Executive Director at Startup Shell. Let's make something together.">
+    <meta name="author" content="Matthew Fan">
+
+    <title>{{page.title}} by Matt Fan</title>
+    <link rel="icon" type="image/png" href="{{"img/face-icon.png" | prepend: site.baseurl }}">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="{{page.fonts}}" rel='stylesheet'>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- TypedJS -->
+    <script src = 'https://cdn.rawgit.com/mattboldt/typed.js/master/lib/typed.min.js'></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109281338-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109281338-1');
+    </script>
+  </head>
+
+  <body>
+      {{ content }}
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      <script src="{{"js/scripts.js" | prepend: site.baseurl }}"></script>
+  </body>
+</html>
