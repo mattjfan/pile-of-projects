@@ -6,7 +6,6 @@ var colors= [
   '#feb3af #1e539d',//blue on pink
   '#de534b #f5c0b9',//pink on red
   '#cefbfc #e1533a',//red on light blue
-  '#b0fa9a #e24e5a',//light green on red
   '#4a5c8c #e0e180',//muted green on blue
   '#d44452 #fdfa4e',//yellow on red
   '#e3f75f #ec4649',//red on yellow
