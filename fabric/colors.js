@@ -8,7 +8,9 @@ var colors= [
   '#cefbfc #e1533a',//red on light blue
   '#4a5c8c #e0e180',//muted green on blue
   '#d44452 #fdfa4e',//yellow on red
-  '#e3f75f #ec4649',//red on yellow
   '#e4f65a #32a98f',//muted green on yellow
   '#fccdce #0977ed',//brighter blue on pink
+  '#3c3c3c #ff5a5f',//red on brown
+  '#544e61 #9197ae',//purple on purple
+
 ]
